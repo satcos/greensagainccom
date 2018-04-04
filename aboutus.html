@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>About Us - Green Saga Inc</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link href="http://fonts.googleapis.com/css?family=Oswald:400,300" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+		function initialize() {
+			var myLatLng = new google.maps.LatLng(40.771768, -73.52120500000001);
+			var mapProp = {
+				center:myLatLng,
+				zoom:15,
+				scrollwheel: false,
+				mapTypeId:google.maps.MapTypeId.ROADMAP
+			};
+			
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			var marker = new google.maps.Marker({
+				position: myLatLng,
+				map: map,
+				title: 'Green Saga Inc, Head Office'
+			});
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+		
+		</script>
+	</head>
+	<body>
+		<div id="header-wrapper">
+			<div class="container">
+				<div id="header">
+					<div id="logo">
+						<h1><a href="#">Green Saga Inc</a></h1>
+						<span></span>
+					</div>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="store.html">Store</a></li>
+							<li><a href="WhyArecaPlate.html">Why Areca Plate</a></li>
+							<li><a href="faqs.html">FAQs</a></li>
+							<li class="current_page_item"><a href="aboutus.html">About Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div id="banner" class="12u">
+					<div class="container" style="padding:0.87em;"><a href="#"><img src="images/Copy of pics01.jpg" alt=""></a></div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper">
+			<div id="page">
+				<div class="container">
+					<div class="row  skel-cell-important" id="content">
+						<div class="12u">
+							<section>
+								<div class="post">
+									<h2>About Us</h2>
+									<p>Green Saga Inc helps to decrease the impact on our environment by providing products manufactured with ecological resource (made from fallen areca leaves) through environmentally friendly process which is biodegradable and compostable.Our products are manufactured from fallen dry sheaths of Betel nut trees. The areca sheath when dried will fall from the tree and it is collected from the farms fresh and used for making products.
+										Visit our online store to see a collection of Eco friendly areca leaf products and we are glad to customize products for bulk order.
+									</p>
+									<div class="address">
+									  <div style="font-weight: bold;">Senthil M Saravanan</div>
+									  <div>Founder & Chief Executive Officer</div>
+									  <div>Green Saga Inc</div>
+									  <div>4 Lottie Avenue,</div>
+									  <div>Hicksville,</div>
+									  <div>New York-11801</div>
+									  <div>Phone No: (516) 717-5498</div>
+									  <div>Email: greensagainc@gmail.com</div>
+									</div>
+									<p>&nbsp;</p>
+									<div id="googleMap" style="width:Auto;height:380px;"></div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="12u">
+						<p>&copy; www.greensagainc.com | <a href="aboutus.html" title="Satco">About Us</a> | 2018 | <a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a> |
+						<a href="http://jigsaw.w3.org/css-validator/check/referer" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a> | Design: <a href="http://TEMPLATED.CO/">TEMPLATED.CO</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script async src="https://www.satcos.in/pixel/pixel.js"> </script>
+	</body>
+</html>
